@@ -1,0 +1,18 @@
+#!/bin/python
+
+import math
+import os
+import random
+import re
+import sys
+n=int(input())
+ele=raw_input()
+l=ele.split(" ")
+i=n-1
+l2=[]
+while(i>=0):
+    p=l[i]
+    l2.append(p)
+    i=i-1
+    s=" ".join(l2)
+print s
